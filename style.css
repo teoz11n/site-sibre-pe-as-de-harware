@@ -1,0 +1,16 @@
+@keyframes color-change {
+  0% { color: #22c55e; }
+  33% { color: rgb(245, 12, 51); }
+  66% { color: rgb(255, 198, 9); }
+  100% { color: #22c55e; }
+}
+
+@keyframes size-change {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+
+h1 {
+  animation: color-change 3s infinite;
+}
